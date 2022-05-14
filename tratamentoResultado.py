@@ -112,7 +112,8 @@ def tratamento():
             if ((liquidez == '') | (liquidez == '-') | (liquidez == '--') | (liquidez == 'R$') | (liquidez == 'R$ ') | (liquidez == 'R$ -') | (liquidez == 'R$ --')):
                 liquidez = 0
             else:
-                liquidez = re.sub('[ R$.]','', liquidez)
+                liquidez = re.sub('[R$.]','', liquidez)
+                liquidez = liquidez.strip()
                 #liquidez = float(re.sub('[,]','.', liquidez))
         else:
             liquidez = 0

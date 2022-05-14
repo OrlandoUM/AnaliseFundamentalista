@@ -13,10 +13,10 @@ Created on Sat Apr 30 02:00:36 2022
 import os
 import seleniumAnaliseFundamentalista as saf
 import tratamentoResultado as tr
-import infoMercado as im # colocar as infos de governanca aq
+import infoMercado as im
 import plots
 
-os.chdir(r'C:\Users\OMOURA\Desktop\AnaliseFundamentalista')
+os.chdir(r'C:\Users\orlan\Desktop\AnaliseFundamentalista')
 
 
 saf.returnAllInformation()
