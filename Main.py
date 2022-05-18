@@ -16,7 +16,7 @@ import tratamentoResultado as tr
 import infoMercado as im
 import plots
 
-os.chdir(r'C:\Users\OMOURA\Desktop\AnaliseFundamentalista')
+os.chdir(r'C:\Users\orlan\Desktop\AnaliseFundamentalista')
 
 
 #saf.returnAllInformation()
@@ -28,9 +28,11 @@ os.chdir(r'C:\Users\OMOURA\Desktop\AnaliseFundamentalista')
 #tr.tratamento()
 
 
-im.mediaSetor() # Criar funcionalidade de passar como parametro o nº de anos pra pegar a média
-im.mediaSubsetor()
-im.mediaSegmento()
-# Criar a funcionalidade "Acompanhamento" para as ações que já invisto
+im.mediaSetor(de = 2017, ate = 2021)
+im.mediaSubsetor(de = 2017, ate = 2021)
+im.mediaSegmento(de = 2017, ate = 2021)
+
+
+
 
 #plots.plotAll()
