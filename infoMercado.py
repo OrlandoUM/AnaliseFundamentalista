@@ -36,7 +36,7 @@ def mediaSegmento():
         final = pd.concat([final, df], axis = 0)
     
     df = final[final['Ano'] == (datetime.now().year - 1)].reset_index(drop = True)
-    df = df[['ROE','ROIC','ROA','EV / EBITDA','EV / Receita','P/L','P/VPA']]
+    df = df[['ROE','ROIC','ROA','EV / EBITDA','EV / Receita','P/L','P/VPA','Margem Líquida','Margem EBITDA','Dív Líq / EBITDA']]
     
     print('''-----------------------------------
 - Média Segmento:''')
@@ -55,7 +55,7 @@ def mediaSubsetor():
             
         
     df = final[final['Ano'] == (datetime.now().year - 1)].reset_index(drop = True)
-    df = df[['ROE','ROIC','ROA','EV / EBITDA','EV / Receita','P/L','P/VPA']]
+    df = df[['ROE','ROIC','ROA','EV / EBITDA','EV / Receita','P/L','P/VPA','Margem Líquida','Margem EBITDA','Dív Líq / EBITDA']]
     
     print('''-----------------------------------\n- Média Subsetor:''')
     
@@ -73,7 +73,7 @@ def mediaSetor():
             
         
     df = final[final['Ano'] == (datetime.now().year - 1)].reset_index(drop = True)
-    df = df[['ROE','ROIC','ROA','EV / EBITDA','EV / Receita','P/L','P/VPA']]
+    df = df[['ROE','ROIC','ROA','EV / EBITDA','EV / Receita','P/L','P/VPA','Margem Líquida','Margem EBITDA','Dív Líq / EBITDA']]
     
     print('''-----------------------------------\n- Média Setor:''')
     
