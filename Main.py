@@ -19,7 +19,7 @@ import plots
 os.chdir(r'C:\Users\orlan\Desktop\AnaliseFundamentalista')
 
 
-#saf.returnAllInformation()
+saf.returnAllInformation()
 
 
 
@@ -28,9 +28,9 @@ os.chdir(r'C:\Users\orlan\Desktop\AnaliseFundamentalista')
 #tr.tratamento()
 
 
-im.mediaSetor(de = 2017, ate = 2021)
-im.mediaSubsetor(de = 2017, ate = 2021)
-im.mediaSegmento(de = 2017, ate = 2021)
+#im.mediaSetor(de = 2021, ate = 2021)
+#im.mediaSubsetor(de = 2021, ate = 2021)
+#im.mediaSegmento(de = 2021, ate = 2021)
 
 
 

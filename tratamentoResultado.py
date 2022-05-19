@@ -147,7 +147,7 @@ def tratamento():
         df['Margem EBIT'] = np.select(case, then, default = df['EBIT'] / df['Receita Líquida'])
         df['Margem EBITDA'] = np.select(case, then, default = df['EBITDA'] / df['Receita Líquida'])
         
-        df['ROE'] = df['Patrimônio Líquido'] / df['Lucro Líquido']
+        df['ROE'] = df['Lucro Líquido'] / df['Patrimônio Líquido']
         df['ROIC'] = (df['EBIT'] + df['IR']) / (df['Patrimônio Líquido'] + df['Dívida Bruta'])
         df['ROA'] = df['Lucro Líquido'] / df['Ativo Total']
         
