@@ -19,7 +19,7 @@ import plots
 os.chdir(r'C:\Users\orlan\Desktop\AnaliseFundamentalista')
 
 
-saf.returnAllInformation()
+#saf.returnAllInformation()
 
 
 
@@ -35,4 +35,4 @@ saf.returnAllInformation()
 
 
 
-#plots.plotAll()
+plots.plotAll()
