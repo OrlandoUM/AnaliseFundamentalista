@@ -16,16 +16,16 @@ import tratamentoResultado as tr
 import infoMercado as im
 import plots
 
-os.chdir(r'C:\Users\orlan\Desktop\AnaliseFundamentalista')
+os.chdir(r'C:\Users\OMOURA\Desktop\AnaliseFundamentalista')
 
 
-saf.returnAllInformation()
+#saf.returnAllInformation()
 
 
 
 # Colocar as infos manualmente
 
-#tr.tratamento()
+tr.tratamento()
 
 
 #im.mediaSetor(de = 2021, ate = 2021)
@@ -35,4 +35,4 @@ saf.returnAllInformation()
 
 
 
-#plots.plotAll()
+plots.plotAll()
