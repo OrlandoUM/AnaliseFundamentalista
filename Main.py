@@ -19,13 +19,13 @@ import plots
 os.chdir(r'C:\Users\OMOURA\Desktop\AnaliseFundamentalista')
 
 
-#saf.returnAllInformation()
+ saf.returnAllInformation()
 
 
 
 # Colocar as infos manualmente
 
-tr.tratamento()
+#tr.tratamento()
 
 
 #im.mediaSetor(de = 2021, ate = 2021)
@@ -35,4 +35,4 @@ tr.tratamento()
 
 
 
-plots.plotAll()
+#plots.plotAll()
